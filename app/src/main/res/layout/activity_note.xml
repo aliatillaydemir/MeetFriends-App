@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".etkinlikFragmentlar.NoteActivity">
+
+    <EditText
+        android:id="@+id/notText"
+        android:layout_width="328dp"
+        android:layout_height="420dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="Metin ekle..."
+        android:scrollbars="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/updateBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:text="Güncelle"
+        app:layout_constraintBaseline_toBaselineOf="@+id/deleteBut"
+        app:layout_constraintEnd_toStartOf="@+id/deleteBut" />
+
+    <Button
+        android:id="@+id/deleteBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        android:text="Sil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notText" />
+
+    <Button
+        android:id="@+id/saveBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:text="Kaydet"
+        app:layout_constraintBaseline_toBaselineOf="@+id/deleteBut"
+        app:layout_constraintStart_toEndOf="@+id/deleteBut" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0ECD6"
+    tools:context=".profile.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="#6F9E46">
+
+            <ImageView
+                android:id="@+id/profile_imageView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/profile" />
+
+            <TextView
+                android:id="@+id/textname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_imageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:hint="Bekleniyor"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/profileSaveBut"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="313dp"
+                android:layout_marginBottom="33dp"
+                android:background="@drawable/saveicon" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="35dp"
+            android:layout_margin="15dp"
+            android:background="@color/white">
+
+
+
+            <ImageView
+                android:id="@+id/ppImage"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/livehome" />
+
+            <TextView
+                android:id="@+id/textLokasyon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/ppImage"
+                android:layout_marginStart="50dp"
+                android:hint="bekleniyor"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textLokasyon"
+                android:layout_marginTop="20dp"
+                android:background="#2B2525" />
+
+
+
+
+
+            <ImageView
+                android:id="@+id/email"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/divider"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/birth" />
+
+            <TextView
+                android:id="@+id/textbirthdey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider"
+                android:layout_alignStart="@+id/email"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:hint="bekleniyor"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textbirthdey"
+                android:background="#2B2525"
+                android:id="@+id/dividerEmail"/>
+
+
+
+
+            <ImageView
+                android:id="@+id/x"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/dividerEmail"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gender" />
+
+            <TextView
+                android:id="@+id/textcinsiyet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dividerEmail"
+                android:layout_alignStart="@+id/x"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:hint="bekleniyor"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textcinsiyet"
+                android:background="#2B2525"
+                android:id="@+id/dividerX"/>
+
+
+
+
+            <ImageView
+                android:id="@+id/y"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/dividerX"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/phone" />
+
+            <TextView
+                android:id="@+id/texttelefon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dividerX"
+                android:layout_alignStart="@+id/y"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:hint="bekleniyor"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/texttelefon"
+                android:background="#2B2525"
+                android:id="@+id/dividerY"/>
+
+
+
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/z"
+                android:background="@drawable/mail"
+                android:layout_below="@id/dividerY"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:id="@+id/textmailimiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dividerY"
+                android:layout_alignStart="@+id/z"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:hint="bekleniyor"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textmailimiz"
+                android:background="#2B2525"
+                android:id="@+id/dividerZ"/>
+
+
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Düzenle"
+            android:theme="@style/Button.Green" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"></com.google.android.gms.ads.AdView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.meetfriends">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TrashTrekking">
+        <activity
+            android:name="com.example.meetfriends.info.infoTabLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.meetfriends.settings.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.meetfriends.profile.EditProfile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.meetfriends.other.UploadActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.meetfriends.etkinlikFragmentlar.NoteActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="com.example.meetfriends.contentProvider.NoteContentProvider"
+            android:authorities="com.example.meetfriends.contentProvider.NoteContentProvider" />
+
+        <activity
+            android:name="com.example.meetfriends.chat.ChatActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-????????????" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.facebook.sdk.ClientToken"
+            android:value="@string/facebook_client_token" />
+
+        <activity
+            android:name="com.example.meetfriends.weather.WeatherActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.meetfriends.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.meetfriends.etkinlikFragmentlar.EtkinlikMain"
+            android:exported="false" />
+        <activity
+            android:name="com.example.meetfriends.etkinlik.MeetPopupActivity"
+            android:theme="@style/KlasikStil" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="????????????????????" />
+
+        <activity
+            android:name="com.example.meetfriends.other.MapActivity"
+            android:exported="true"
+            android:parentActivityName="com.example.meetfriends.other.MainActivity" />
+        <activity
+            android:name="com.example.meetfriends.loginRegister.ResetPassActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.meetfriends.loginRegister.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.meetfriends.other.FotoActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.meetfriends.loginRegister.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.meetfriends.other.MainActivity"
+            android:exported="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.EditProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="#6F9E46" >
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="35dp"
+            android:layout_margin="15dp"
+            android:background="@color/white">
+
+
+            <ImageView
+                android:id="@+id/ppImage"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/livehome" />
+
+            <EditText
+                android:id="@+id/textLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/ppImage"
+                android:layout_marginStart="50dp"
+                android:hint="Konum"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/textLocation"
+                android:layout_marginTop="20dp"
+                android:background="#2B2525" />
+
+
+
+
+
+            <ImageView
+                android:id="@+id/email"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/divider"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/birth" />
+
+            <EditText
+                android:id="@+id/textBirthday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider"
+                android:layout_alignStart="@+id/email"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:hint="Doğum Tarihi"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textBirthday"
+                android:background="#2B2525"
+                android:id="@+id/dividerEmail"/>
+
+
+
+
+            <ImageView
+                android:id="@+id/x"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/dividerEmail"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/gender" />
+
+            <EditText
+                android:id="@+id/textAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dividerEmail"
+                android:layout_alignStart="@+id/x"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:hint="İsim"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textAd"
+                android:background="#2B2525"
+                android:id="@+id/dividerX"/>
+
+
+
+
+            <ImageView
+                android:id="@+id/y"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/dividerX"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/phone" />
+
+            <EditText
+                android:id="@+id/textTel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dividerX"
+                android:layout_alignStart="@+id/y"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:hint="Tel no"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textTel"
+                android:background="#2B2525"
+                android:id="@+id/dividerY"/>
+
+
+
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/z"
+                android:background="@drawable/mail"
+                android:layout_below="@id/dividerY"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/textEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dividerY"
+                android:layout_alignStart="@+id/z"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:hint="Mail"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textEmail"
+                android:background="#2B2525"
+                android:id="@+id/dividerZ"/>
+
+
+
+
+        </RelativeLayout>
+
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:theme="@style/Button.Green"
+            android:id="@+id/kaydetButon"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Düzenle"
+            />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+

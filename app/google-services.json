@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "313751020615",
+    "project_id": "fir-auth-694be",
+    "storage_bucket": "fir-auth-694be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313751020615:android:4e760db1ff3e2044cefd62",
+        "android_client_info": {
+          "package_name": "com.example.form"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313751020615-aaqk36h7872hiacdjm19vft0f54son1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8PJDB6t9njC4FsNpyPGbKoOdjSh8pGiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313751020615-aaqk36h7872hiacdjm19vft0f54son1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313751020615:android:2a1f92e80128b9f5cefd62",
+        "android_client_info": {
+          "package_name": "com.example.trashtracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313751020615-aaqk36h7872hiacdjm19vft0f54son1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8PJDB6t9njC4FsNpyPGbKoOdjSh8pGiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313751020615-aaqk36h7872hiacdjm19vft0f54son1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

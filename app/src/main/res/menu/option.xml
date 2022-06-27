@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/resetPass"
+        android:title="Şifre Değiştir" />
+    <item
+        android:id="@+id/updateEmail"
+        android:title="Email Güncelle" />
+    <item
+        android:id="@+id/delete"
+        android:title="Hesap Sil" />
+    <item
+        android:id="@+id/logOut"
+        android:title="Çıkış Yap" />
+
+</menu>
