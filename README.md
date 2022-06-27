@@ -232,5 +232,9 @@ Gece modu(karanlık mod) sharedPreference ile cihazda seçenek bilgisinin tutulm
 <img width="260" alt="Screenshot_32" src="https://user-images.githubusercontent.com/43906043/175795142-bcd9d454-3655-4b97-83ff-4531ed7e7264.png"> <img width="257" alt="Screenshot_33" src="https://user-images.githubusercontent.com/43906043/175795143-3ca78b4f-e06c-4337-a1f0-860fa6a65be8.png"> <img width="256" alt="Screenshot_34" src="https://user-images.githubusercontent.com/43906043/175795144-c80b4a06-f3b5-4ed5-86cf-03c7526b1df5.png">
 
 
-
+### NOT: 
+Kullanıma hazır olması için aşağıdaki sınıflarda/dosyalarda bulunan key'lerin girilmesi gerekmektedir.<br/>
+- ChatActivity ->  ONESIGNAL_APP_ID<br/>
+- WeatherActivity -> appid<br/>
+- manifest -> android.gms.ads, google.android.geo keys
 
