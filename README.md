@@ -156,7 +156,8 @@ kullancı id'leri eşleştirilerek özel sohbet oluşturulabilir.
 Tab layout sayesinde etkinlik ana sayfasından detaylar sayfasına ekran kaydıralarak geçiş yapılabilir. Bu kısım kullanıcıların not alması ve tarih üzerinden hesaplama
 yapabilmesi için oluşturulmuştur. Amaç kullanıcının projeye dair her ihtiyacını uygulamadan çıkmadan görebilmesi ve vakit geçirebilmesidir. 
 
-<img width="258" alt="Screenshot_16" src="https://user-images.githubusercontent.com/43906043/175795121-6f301443-0776-410d-8bde-96ca9d23bd3b.png">
+<img width="258" alt="Screenshot_16" src="https://user-images.githubusercontent.com/43906043/175795121-6f301443-0776-410d-8bde-96ca9d23bd3b.png"> <img width="255" alt="Screenshot_2" src="https://user-images.githubusercontent.com/43906043/176209912-c52d8c72-9ecb-4257-9c08-e49aa93caeac.png">
+
 Ekranın sol altında bulunan artı şeklindeki float buton ile not ekleme sayfasına geçiş yapılabilir.
 
 
